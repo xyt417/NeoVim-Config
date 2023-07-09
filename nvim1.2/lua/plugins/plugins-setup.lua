@@ -23,7 +23,6 @@ vim.cmd([[
 return require('packer').startup(function(use)
 -- 添加插件:
   use 'wbthomason/packer.nvim' -- packer
-  use 'morhetz/gruvbox' -- gruvbox 主题
   use 'folke/tokyonight.nvim' -- tokyo 主题(在option中启用)
   use {
       'nvim-lualine/lualine.nvim',

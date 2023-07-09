@@ -8,7 +8,7 @@ opt.shiftwidth = 4
 opt.expandtab = true
 opt.autoindent = true
 -- 自动换行？
-opt.wrap = true
+opt.wrap = ture
 -- 系统剪切板
 opt.clipboard:append("unnamedplus")
 -- 外观(终端真颜色)
@@ -16,15 +16,6 @@ opt.termguicolors = true
 -- 左侧多一列
 opt.signcolumn = "yes"
 
-
-vim.g.gruvbox_contrast_dark = "hard"
-vim.g.gruvbox_contrast_light = "hard"
-vim.cmd[[colorscheme gruvbox]]
-vim.cmd[[set background=dark]]
+vim.cmd[[colorscheme tokyonight-moon]]
 
 vim.g.copilot_assume_mapped = true
-
-vim.cmd('set cursorline')
-
-vim.cmd('highlight! link Identifier Normal')
-vim.cmd('highlight! link Function TODO')
